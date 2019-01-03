@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* reset */
+
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+em,
+button {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* font: 12px/1 BlinkMacSystemFont, -apple-system, Helvetica, Arial, sans-serif; */
+    font: 12px/1 -apple-system, BlinkMacSystemFont, 'PingFangSC-Regular',
+        SFUIText, Helvetica, Arial, sans-serif;
+    color: #222;
+    background-color: #efeff4;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+th,
+var {
+    font-style: normal;
+    font-weight: inherit;
+}
+
+img,
+fieldset {
+    border: none;
+    vertical-align: middle;
+}
+
+input,
+textarea {
+    font-size: inherit;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input[type='button'],
+input[type='submit'] {
+    -webkit-appearance: none;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
