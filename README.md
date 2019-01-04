@@ -1,5 +1,11 @@
 # vue-test
 
+## 包含
++ router
++ sass
++ esLint + prettier
++ element
+
 ## Project setup
 
 ```
